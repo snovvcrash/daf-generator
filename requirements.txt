@@ -1,0 +1,4 @@
+PyAudio==0.2.11
+PyQt5==5.10
+pyqt5-tools==5.9.0.1.2
+sip==4.19.7
