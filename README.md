@@ -1,4 +1,4 @@
-# daf-generator
+# DAF Gen
 Simple Delayed Auditory Feedback (DAF) generator aimed at reducing stuttering.
 
 ## Screenshot
