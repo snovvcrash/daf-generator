@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>441</width>
+    <width>451</width>
     <height>95</height>
    </rect>
   </property>
@@ -57,7 +57,7 @@
   <widget class="QPushButton" name="startButton">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>200</x>
      <y>50</y>
      <width>71</width>
      <height>31</height>
@@ -70,7 +70,7 @@
   <widget class="QPushButton" name="stopButton">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>280</x>
      <y>50</y>
      <width>71</width>
      <height>31</height>
@@ -83,7 +83,7 @@
   <widget class="QPushButton" name="quitButton">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>360</x>
      <y>50</y>
      <width>71</width>
      <height>31</height>
@@ -96,7 +96,7 @@
   <widget class="QSlider" name="delaySlider">
    <property name="geometry">
     <rect>
-     <x>110</x>
+     <x>120</x>
      <y>10</y>
      <width>241</width>
      <height>21</height>
@@ -115,7 +115,7 @@
   <widget class="QPlainTextEdit" name="delayEdit">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>370</x>
      <y>10</y>
      <width>61</width>
      <height>31</height>
@@ -131,7 +131,7 @@
   <widget class="QPlainTextEdit" name="actualDelayEdit">
    <property name="geometry">
     <rect>
-     <x>110</x>
+     <x>120</x>
      <y>50</y>
      <width>61</width>
      <height>31</height>
