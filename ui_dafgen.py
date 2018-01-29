@@ -22,7 +22,7 @@ class Ui_DAFGen(object):
         self.delayLabel.setFont(font)
         self.delayLabel.setObjectName("delayLabel")
         self.actualDelayLabel = QtWidgets.QLabel(DAFGen)
-        self.actualDelayLabel.setGeometry(QtCore.QRect(20, 50, 81, 31))
+        self.actualDelayLabel.setGeometry(QtCore.QRect(20, 50, 91, 31))
         font = QtGui.QFont()
         font.setPointSize(11)
         self.actualDelayLabel.setFont(font)
