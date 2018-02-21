@@ -12,6 +12,8 @@ class Ui_DAFGen(object):
     def setupUi(self, DAFGen):
         DAFGen.setObjectName("DAFGen")
         DAFGen.resize(451, 95)
+        DAFGen.setMinimumSize(QtCore.QSize(451, 95))
+        DAFGen.setMaximumSize(QtCore.QSize(451, 95))
         font = QtGui.QFont()
         font.setPointSize(11)
         DAFGen.setFont(font)
