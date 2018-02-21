@@ -6,7 +6,7 @@
 @author snovvcrash <snovvcrash@protonmail.com>
 @date 2018-01
 
-@brief Simple DAF Generator
+@brief Simple DAF (Delayed Auditory Feedback) Generator
 
 @license
 Copyright (C) 2018 snovvcrash
