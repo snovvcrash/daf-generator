@@ -86,8 +86,8 @@ class MainApp(QMainWindow, Ui_DAFGen):
 		device = PyAudio()
 
 		try:
-			streamIn = device.open(format=paFloat32, channels=MainApp._CHANNELS, rate=MainApp._RATE, input=True, frames_per_buffer=bufferSize)
-			streamOut = device.open(format=paFloat32, channels=MainApp._CHANNELS, rate=MainApp._RATE, output=True, frames_per_buffer=bufferSize)
+			streamIn = device.open(format=paFloat32, channels=self._CHANNELS, rate=self._RATE, input=True, frames_per_buffer=bufferSize)
+			streamOut = device.open(format=paFloat32, channels=self._CHANNELS, rate=self._RATE, output=True, frames_per_buffer=bufferSize)
 		except OSError as e:
 			QMessageBox.critical(self, 'Error', 'No input/output device found! Connect and rerun.')
 			return
