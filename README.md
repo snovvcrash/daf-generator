@@ -1,7 +1,7 @@
 # DAF Gen
 Simple **D**elayed **A**uditory **F**eedback (DAF) generator aimed at reducing stuttering.
 
-## Screenshot
+## Screenshots
 ![Screenshot-1](https://user-images.githubusercontent.com/23141800/35464372-9d59553e-0306-11e8-945c-26535601f002.png)
 
 ## Building and requirements
