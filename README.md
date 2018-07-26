@@ -27,7 +27,7 @@ $ sudo apt-get install python3-pyqt5 pyqt5-dev-tools
 ```
 
 ## Post Scriptum
-If you have any questions, feel free to contact me at <snovvcrash@protonmail.com>.
+If you have any questions, feel free to contact me at <snovvcrash@protonmail.com>
 
 If this tool has been useful for you, feel free to buy me a coffee :coffee:
 
