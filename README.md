@@ -26,5 +26,9 @@ $ pip3 install pyaudio
 $ sudo apt-get install python3-pyqt5 pyqt5-dev-tools
 ```
 
-## Help
+## Post Scriptum
 If you have any questions, feel free to contact me at <snovvcrash@protonmail.com>.
+
+If this tool has been useful for you, feel free to buy me a coffee :coffee:
+
+[![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoff.ee/snovvcrash)
