@@ -8,7 +8,7 @@ Simple **D**elayed **A**uditory **F**eedback (DAF) generator aimed at reducing s
 What's this all about:
   * [Delayed Auditory Feedback - Wikipedia](https://en.wikipedia.org/wiki/Delayed_Auditory_Feedback)
   * [Delayed Auditory Feedback - Wikibooks](https://en.wikibooks.org/wiki/Speech-Language_Pathology/Stuttering/Delayed_Auditory_Feedback)
-  * [На волнах эффекта Ли: Питонизируем генерацию DAF](https://habr.com/post/347580/)
+  * [На волнах эффекта Ли: Питонизируем генерацию DAF / Хабр](https://habr.com/post/347580/)
 
 ## Building and requirements
 DAF Gen is created via PyQt5 framework and uses the PyAudio module for voice recording. All the necessary PIP dependencies are listed in *requirements.txt*.
