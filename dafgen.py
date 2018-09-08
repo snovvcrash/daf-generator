@@ -3,7 +3,7 @@
 
 """
 @file dafgen.py
-@author snovvcrash <snovvcrash@protonmail.com>
+@author snovvcrash <scr.im/emsnovvcrash>
 @date 2018-01
 
 @brief Simple DAF (Delayed Auditory Feedback) Generator
