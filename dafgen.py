@@ -3,13 +3,13 @@
 
 """
 @file dafgen.py
-@author snovvcrash <scr.im/emsnovvcrash>
+@author Sam Freeside <snovvcrash@protonmail[.]ch>
 @date 2018-01
 
 @brief Simple DAF (Delayed Auditory Feedback) Generator
 
 @license
-Copyright (C) 2018 snovvcrash
+Copyright (C) 2018 Sam Freeside
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
