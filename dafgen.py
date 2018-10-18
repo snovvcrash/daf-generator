@@ -36,6 +36,7 @@ from time import clock
 
 import sys
 
+
 class Worker(QThread):
 
 	_trigger = pyqtSignal(float)
@@ -60,6 +61,7 @@ class Worker(QThread):
 	def run(self):
 		self._genDAF()
 
+
 class MainApp(QMainWindow, Ui_DAFGen):
 
 	_CHANNELS = 2
@@ -70,7 +72,7 @@ class MainApp(QMainWindow, Ui_DAFGen):
 		self.setupUi(self)
 
 		self.stopButton.setEnabled(False)
-		#self.delaySlider.setValue(190)
+		# _self.delaySlider.setValue(190)
 		self._updateDelay()
 
 		self.delaySlider.valueChanged.connect(self._updateDelay)
@@ -86,8 +88,22 @@ class MainApp(QMainWindow, Ui_DAFGen):
 		device = PyAudio()
 
 		try:
-			streamIn = device.open(format=paFloat32, channels=self._CHANNELS, rate=self._RATE, input=True, frames_per_buffer=bufferSize)
-			streamOut = device.open(format=paFloat32, channels=self._CHANNELS, rate=self._RATE, output=True, frames_per_buffer=bufferSize)
+			streamIn = device.open(
+				format=paFloat32,
+				channels=self._CHANNELS,
+				rate=self._RATE,
+				input=True,
+				frames_per_buffer=bufferSize
+			)
+
+			streamOut = device.open(
+				format=paFloat32,
+				channels=self._CHANNELS,
+				rate=self._RATE,
+				output=True,
+				frames_per_buffer=bufferSize
+			)
+
 		except OSError as e:
 			QMessageBox.critical(self, 'Error', 'No input/output device found! Connect and rerun.')
 			return
@@ -112,6 +128,7 @@ class MainApp(QMainWindow, Ui_DAFGen):
 	def _updateActualDelay(self, t):
 		newValue = floor(t * 1000)
 		self.actualDelayEdit.setPlainText(str(newValue) + ' ms')
+
 
 def main():
 	app = QApplication(sys.argv)
